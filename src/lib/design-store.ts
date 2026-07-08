@@ -1,7 +1,7 @@
 import type { Design, Template } from "./editor-types";
 import { uid } from "./editor-types";
 
-const KEY = "lovable-canvas-designs";
+const KEY = "design-editor-projects";
 
 // v1 designs stored `elements` directly; migrate to `pages`.
 function migrate(raw: unknown): Design {
