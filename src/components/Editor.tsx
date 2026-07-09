@@ -476,12 +476,6 @@ export default function Editor({ initial }: Props) {
         </div>
 
         <div className="ml-auto flex items-center gap-2">
-          <button className="h-10 px-4 rounded-lg font-medium text-sm flex items-center gap-2 bg-[color:var(--highlight)] text-[color:var(--highlight-foreground)] hover:brightness-95">
-            <Sparkles className="w-4 h-4" /> Upgrade
-          </button>
-          <button className="h-10 px-4 rounded-lg font-medium text-sm flex items-center gap-2 bg-card border border-border hover:bg-secondary">
-            <Share2 className="w-4 h-4" /> Share
-          </button>
           <button onClick={exportPNG} className="h-10 px-4 rounded-lg font-medium text-sm flex items-center gap-2 bg-card border border-border hover:bg-secondary">
             <Download className="w-4 h-4" /> Download
           </button>
