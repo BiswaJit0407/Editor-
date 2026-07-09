@@ -325,4 +325,272 @@ export const templates: Template[] = [
       }
     ],
   },
+  {
+    id: "report-card-advanced",
+    name: "Adv. Report Card (Blue)",
+    category: "Print",
+    width: 1200,
+    height: 1600,
+    background: "#f0f4f8",
+    elements: [
+      {
+        type: "rect", x: 0, y: 0, width: 1200, height: 250,
+        fill: "#1e3a8a", stroke: "", strokeWidth: 0, cornerRadius: 0,
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 100, y: 70, width: 1000,
+        text: "OAKBRIDGE ACADEMY",
+        fontSize: 64, fontFamily: "Georgia", fontStyle: "bold",
+        fill: "#facc15", align: "center",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 100, y: 150, width: 1000,
+        text: "Term Progress Report - 2025",
+        fontSize: 32, fontFamily: "Helvetica", fontStyle: "normal",
+        fill: "#e0e7ff", align: "center",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "rect", x: 100, y: 280, width: 1000, height: 120,
+        fill: "#ffffff", stroke: "#cbd5e1", strokeWidth: 1, cornerRadius: 12,
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 140, y: 310, width: 400,
+        text: "Name: Alexander Davis",
+        fontSize: 26, fontFamily: "Helvetica", fontStyle: "bold",
+        fill: "#0f172a", align: "left",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 140, y: 350, width: 400,
+        text: "Student ID: 987654321",
+        fontSize: 22, fontFamily: "Helvetica", fontStyle: "normal",
+        fill: "#475569", align: "left",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 660, y: 310, width: 400,
+        text: "Grade: 11th Grade",
+        fontSize: 26, fontFamily: "Helvetica", fontStyle: "bold",
+        fill: "#0f172a", align: "right",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 660, y: 350, width: 400,
+        text: "Homeroom: Room 4B",
+        fontSize: 22, fontFamily: "Helvetica", fontStyle: "normal",
+        fill: "#475569", align: "right",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "rect", x: 100, y: 440, width: 1000, height: 460,
+        fill: "#ffffff", stroke: "#94a3b8", strokeWidth: 2, cornerRadius: 8,
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "rect", x: 100, y: 440, width: 1000, height: 60,
+        fill: "#1e3a8a", stroke: "", strokeWidth: 0, cornerRadius: 0,
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 140, y: 455, width: 300,
+        text: "SUBJECT",
+        fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold",
+        fill: "#ffffff", align: "left",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 500, y: 455, width: 200,
+        text: "SCORE",
+        fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold",
+        fill: "#ffffff", align: "center",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 800, y: 455, width: 200,
+        text: "GRADE",
+        fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold",
+        fill: "#ffffff", align: "center",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      // Row 1
+      {
+        type: "line", x: 100, y: 560, points: [0, 0, 1000, 0], stroke: "#cbd5e1", strokeWidth: 1, rotation: 0, opacity: 1, draggable: false,
+      },
+      { type: "text", x: 140, y: 520, width: 300, text: "Advanced Calculus", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#334155", align: "left", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 500, y: 520, width: 200, text: "94/100", fontSize: 24, fontFamily: "Helvetica", fontStyle: "normal", fill: "#334155", align: "center", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 800, y: 520, width: 200, text: "A", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#16a34a", align: "center", rotation: 0, opacity: 1, draggable: true },
+      // Row 2
+      {
+        type: "line", x: 100, y: 620, points: [0, 0, 1000, 0], stroke: "#cbd5e1", strokeWidth: 1, rotation: 0, opacity: 1, draggable: false,
+      },
+      { type: "text", x: 140, y: 580, width: 300, text: "Physics", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#334155", align: "left", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 500, y: 580, width: 200, text: "89/100", fontSize: 24, fontFamily: "Helvetica", fontStyle: "normal", fill: "#334155", align: "center", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 800, y: 580, width: 200, text: "B+", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#ca8a04", align: "center", rotation: 0, opacity: 1, draggable: true },
+      // Row 3
+      {
+        type: "line", x: 100, y: 680, points: [0, 0, 1000, 0], stroke: "#cbd5e1", strokeWidth: 1, rotation: 0, opacity: 1, draggable: false,
+      },
+      { type: "text", x: 140, y: 640, width: 300, text: "World History", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#334155", align: "left", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 500, y: 640, width: 200, text: "91/100", fontSize: 24, fontFamily: "Helvetica", fontStyle: "normal", fill: "#334155", align: "center", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 800, y: 640, width: 200, text: "A-", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#16a34a", align: "center", rotation: 0, opacity: 1, draggable: true },
+      // Row 4
+      {
+        type: "line", x: 100, y: 740, points: [0, 0, 1000, 0], stroke: "#cbd5e1", strokeWidth: 1, rotation: 0, opacity: 1, draggable: false,
+      },
+      { type: "text", x: 140, y: 700, width: 300, text: "English Literature", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#334155", align: "left", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 500, y: 700, width: 200, text: "96/100", fontSize: 24, fontFamily: "Helvetica", fontStyle: "normal", fill: "#334155", align: "center", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 800, y: 700, width: 200, text: "A", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#16a34a", align: "center", rotation: 0, opacity: 1, draggable: true },
+      // Row 5
+      { type: "text", x: 140, y: 760, width: 300, text: "Computer Science", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#334155", align: "left", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 500, y: 760, width: 200, text: "100/100", fontSize: 24, fontFamily: "Helvetica", fontStyle: "normal", fill: "#334155", align: "center", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 800, y: 760, width: 200, text: "A+", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#16a34a", align: "center", rotation: 0, opacity: 1, draggable: true },
+      
+      // Comments Section
+      {
+        type: "rect", x: 100, y: 940, width: 1000, height: 200,
+        fill: "#e0e7ff", stroke: "", strokeWidth: 0, cornerRadius: 8,
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 140, y: 970, width: 920,
+        text: "Teacher's Remarks:",
+        fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold",
+        fill: "#1e3a8a", align: "left",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 140, y: 1020, width: 920,
+        text: "Alexander is an outstanding student who consistently demonstrates a deep understanding of the course materials. His performance in Computer Science is particularly commendable. Keep up the excellent work!",
+        fontSize: 22, fontFamily: "Helvetica", fontStyle: "italic",
+        fill: "#334155", align: "left",
+        rotation: 0, opacity: 1, draggable: true,
+      }
+    ],
+  },
+  {
+    id: "report-card-modern",
+    name: "Modern Report (Green)",
+    category: "Print",
+    width: 1200,
+    height: 1600,
+    background: "#ffffff",
+    elements: [
+      {
+        type: "rect", x: 80, y: 80, width: 1040, height: 1440,
+        fill: "#ffffff", stroke: "#047857", strokeWidth: 12, cornerRadius: 24,
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "circle", x: 600, y: 220, radius: 80,
+        fill: "#d1fae5", stroke: "", strokeWidth: 0,
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 550, y: 180, width: 100,
+        text: "🌟",
+        fontSize: 72, fontFamily: "Helvetica", fontStyle: "normal",
+        fill: "#000000", align: "center",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 100, y: 340, width: 1000,
+        text: "CRESTVIEW INSTITUTE",
+        fontSize: 48, fontFamily: "Helvetica", fontStyle: "bold",
+        fill: "#047857", align: "center",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 100, y: 410, width: 1000,
+        text: "Student Performance Evaluation",
+        fontSize: 28, fontFamily: "Helvetica", fontStyle: "normal",
+        fill: "#64748b", align: "center",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      
+      // Student Info
+      {
+        type: "text", x: 140, y: 520, width: 400,
+        text: "STUDENT:",
+        fontSize: 18, fontFamily: "Helvetica", fontStyle: "bold",
+        fill: "#94a3b8", align: "left",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 140, y: 550, width: 400,
+        text: "Emma Richards",
+        fontSize: 32, fontFamily: "Helvetica", fontStyle: "bold",
+        fill: "#0f172a", align: "left",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 660, y: 520, width: 400,
+        text: "CLASS / SEMESTER:",
+        fontSize: 18, fontFamily: "Helvetica", fontStyle: "bold",
+        fill: "#94a3b8", align: "right",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 660, y: 550, width: 400,
+        text: "Year 9 / Spring",
+        fontSize: 32, fontFamily: "Helvetica", fontStyle: "bold",
+        fill: "#0f172a", align: "right",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      
+      // Table Header Background
+      {
+        type: "rect", x: 140, y: 640, width: 920, height: 60,
+        fill: "#d1fae5", stroke: "", strokeWidth: 0, cornerRadius: 8,
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      { type: "text", x: 180, y: 658, width: 300, text: "COURSE", fontSize: 20, fontFamily: "Helvetica", fontStyle: "bold", fill: "#047857", align: "left", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 500, y: 658, width: 200, text: "SCORE", fontSize: 20, fontFamily: "Helvetica", fontStyle: "bold", fill: "#047857", align: "center", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 760, y: 658, width: 200, text: "FINAL GRADE", fontSize: 20, fontFamily: "Helvetica", fontStyle: "bold", fill: "#047857", align: "center", rotation: 0, opacity: 1, draggable: true },
+      
+      // Table Rows (Editable)
+      { type: "text", x: 180, y: 740, width: 300, text: "Algebra II", fontSize: 24, fontFamily: "Helvetica", fontStyle: "normal", fill: "#1e293b", align: "left", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 500, y: 740, width: 200, text: "85 / 100", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#334155", align: "center", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 760, y: 740, width: 200, text: "B", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#10b981", align: "center", rotation: 0, opacity: 1, draggable: true },
+      { type: "line", x: 140, y: 790, points: [0, 0, 920, 0], stroke: "#f1f5f9", strokeWidth: 2, rotation: 0, opacity: 1, draggable: false },
+
+      { type: "text", x: 180, y: 820, width: 300, text: "Biology", fontSize: 24, fontFamily: "Helvetica", fontStyle: "normal", fill: "#1e293b", align: "left", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 500, y: 820, width: 200, text: "92 / 100", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#334155", align: "center", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 760, y: 820, width: 200, text: "A-", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#10b981", align: "center", rotation: 0, opacity: 1, draggable: true },
+      { type: "line", x: 140, y: 870, points: [0, 0, 920, 0], stroke: "#f1f5f9", strokeWidth: 2, rotation: 0, opacity: 1, draggable: false },
+
+      { type: "text", x: 180, y: 900, width: 300, text: "World Geography", fontSize: 24, fontFamily: "Helvetica", fontStyle: "normal", fill: "#1e293b", align: "left", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 500, y: 900, width: 200, text: "88 / 100", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#334155", align: "center", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 760, y: 900, width: 200, text: "B+", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#10b981", align: "center", rotation: 0, opacity: 1, draggable: true },
+      { type: "line", x: 140, y: 950, points: [0, 0, 920, 0], stroke: "#f1f5f9", strokeWidth: 2, rotation: 0, opacity: 1, draggable: false },
+
+      { type: "text", x: 180, y: 980, width: 300, text: "Art & Design", fontSize: 24, fontFamily: "Helvetica", fontStyle: "normal", fill: "#1e293b", align: "left", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 500, y: 980, width: 200, text: "98 / 100", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#334155", align: "center", rotation: 0, opacity: 1, draggable: true },
+      { type: "text", x: 760, y: 980, width: 200, text: "A+", fontSize: 24, fontFamily: "Helvetica", fontStyle: "bold", fill: "#10b981", align: "center", rotation: 0, opacity: 1, draggable: true },
+      { type: "line", x: 140, y: 1030, points: [0, 0, 920, 0], stroke: "#f1f5f9", strokeWidth: 2, rotation: 0, opacity: 1, draggable: false },
+      
+      {
+        type: "rect", x: 140, y: 1100, width: 920, height: 180,
+        fill: "#f8fafc", stroke: "#cbd5e1", strokeWidth: 1, cornerRadius: 12,
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 180, y: 1130, width: 840,
+        text: "Principal's Comment:",
+        fontSize: 20, fontFamily: "Helvetica", fontStyle: "bold",
+        fill: "#64748b", align: "left",
+        rotation: 0, opacity: 1, draggable: true,
+      },
+      {
+        type: "text", x: 180, y: 1170, width: 840,
+        text: "Emma has shown great improvement this semester, particularly in her creative pursuits. We are very proud of her dedication and hard work.",
+        fontSize: 22, fontFamily: "Helvetica", fontStyle: "normal",
+        fill: "#334155", align: "left",
+        rotation: 0, opacity: 1, draggable: true,
+      }
+    ],
+  },
 ];
